@@ -32,7 +32,8 @@ public class MultipleItemQuickAdapter extends BaseMultiItemQuickAdapter<Multiple
                 switch (helper.getLayoutPosition() %
                         2) {
                     case 0:
-                        helper.setImageResource(R.id.iv, R.mipmap.animation_img1);
+//                        helper.setImageResource(R.id.iv, R.mipmap.animation_img1);
+                        helper.setImageUrl(R.id.iv, "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1529920283889&di=5f054a6a8121fde4d0a74ff0b6df371a&imgtype=0&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F8718367adab44aed5b24056fbf1c8701a08bfbd7.jpg");
                         break;
                     case 1:
                         helper.setImageResource(R.id.iv, R.mipmap.animation_img2);
